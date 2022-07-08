@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
-        Log.d("Kaustav" , "A new commit hhh")
+        Log.d("Kaustav" , "A new commit that will be reflected")
 
         receiver = AirplaneModeChangeReceiver()
 
